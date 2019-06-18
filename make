@@ -1,5 +1,5 @@
 #!/bin/bash
 
-g++ -o compiled.o main.cpp -lncurses -std=c++1y -Wall 
+g++ -o a.out *.cpp -lncurses -std=c++1y -Wall -g
 #-Weffc++ -Winit-self 
 ./a.out
